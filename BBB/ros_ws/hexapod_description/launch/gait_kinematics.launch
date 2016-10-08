@@ -1,0 +1,24 @@
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find hexapod_description)/models/hexapod_model.xacro'" />
+  <param name="uart_script" command="$(find hexapod_maestro_controller)/script/uart_config.sh" />
+
+  <param name="joint_upper_limit" type="double" value="1.5" />
+  <param name="joint_lower_limit" type="double" value="-1.5" />
+  
+  <param name="trapezoid_low_radius" type="double" value="0.03" />
+  <param name="trapezoid_high_radius" type="double" value="0.023" />
+  <param name="trapezoid_h" type="double" value="0.02" />
+  <param name="clearance" type="double" value="0.045" />
+  <param name="duration_ripple" type="double" value="1.5" />
+  <param name="duration_tripod" type="double" value="1.0" />
+
+  <node name="hexapod_leg_kinematics" pkg="hexapod_leg_kinematics" type="leg_ik_service"/>
+  <node name="hexapod_maestro_controller" pkg="hexapod_maestro_controller" type="controller_sub"/>
+  <node name="hexapod_body_kinematics" pkg="hexapod_body_kinematics" type="body_kinematics"/>
+  <node name="hexapod_gait" pkg="hexapod_gait" type="gait_kinematics"/>
+
+
+  <include file="$(find hexapod_teleop_joy)/launch/joy.launch" />
+
+</launch>

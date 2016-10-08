@@ -3,7 +3,7 @@
 #set -x
 
 DIR=`dirname $0`
-DIR=`readlink $DIR`
+DIR=`readlink -f $DIR`
 
 source $DIR/../BBB/catkin_ws/install/setup.sh
 
