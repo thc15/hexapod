@@ -1,0 +1,103 @@
+# import FreeCAD as App
+import os
+import shutil
+import FreeCAD
+
+# import FreeCAD as App
+# import FreeCADGui as Gui
+
+
+print "Start"
+doc = App.activeDocument()
+print doc.PropertiesList
+print "document: " + doc.getPropertyByName('Label')
+activeFileName = doc.getPropertyByName('FileName')
+print "document: " + activeFileName
+
+
+exportDir = os.path.dirname(activeFileName) + "/myExport"
+print "exportDir: " + exportDir
+#
+if not os.path.exists(exportDir):
+    os.makedirs(exportDir)
+
+#
+for filename in os.listdir(exportDir):
+    filepath = os.path.join(exportDir, filename)
+    try:
+        shutil.rmtree(filepath)
+    except OSError:
+        os.remove(filepath)
+#
+
+# Get the list of features and their placement
+feature_list = []
+placement_list = []
+label_list = []
+#
+print "\n\n -- STEP export ---\n\n"
+for o in doc.Objects:
+    # print "    o: " + o.TypeId + " / " + o.Label
+    if o.TypeId == 'Part::Feature' or o.TypeId == 'Part::FeaturePython':
+        print "    o: " + o.TypeId + " / " + o.Label
+        feature_list.append(o)
+        exportFileName = exportDir + "/" + o.Label + ".stl"
+        print "    export: " + exportFileName
+        #
+        o.Shape.exportStep(exportFileName)
+        #
+        #print o.PropertiesList
+        # body = o.getInList[0]
+        # part = body.getInList[0]
+        # placement = part.Placement
+        # placement_list.append(placement)
+        label_list.append(o.Label)
+    else:
+        print "    o: " + o.TypeId + " ... exception"
+#    
+#exit
+#
+#
+#
+print "\n\n -- FreeCAD export ---\n\n"
+#
+#
+#
+# new_doc = App.newDocument()
+# fpl_list = zip(feature_list, placement_list, label_list)
+# exportFileName = exportDir + "/" + label + ".stp"
+# exportFileName = exportDir + "/complete.stp"
+#
+#for feature, placement, label in fpl_list:
+fpl_list = zip(feature_list, label_list)
+#
+for feature, label in fpl_list:
+    print "    export: " + label
+    freeCADFileName = exportDir + "/" + label + ".FCStd"
+    stlFileName = exportDir + "/" + label + "_b.stl"
+    print "    export: " + freeCADFileName
+    print "    export: " + stlFileName
+        #
+    newDoc = App.newDocument(label)
+    o = newDoc.addObject('Part::Feature', label)
+    o.Shape = feature.Shape
+    App.getDocument(label).saveAs(freeCADFileName)
+        #
+        # o.Placement = placement
+    Gui.SendMsgToActiveView("ViewFit")
+    newDoc.recompute()
+        #
+    o.Shape.exportStep(stepFileName)
+        #
+    App.closeDocument(label)
+    
+
+Gui.SendMsgToActiveView("ViewFit")
+#
+#
+#
+print "\n\n -- Done ! ---\n\n"
+#
+#
+#
+exit

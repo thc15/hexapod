@@ -1,0 +1,7 @@
+
+*.o
+**.*~
+BBB/catkin_ws/build/**
+BBB/catkin_ws/devel/**
+BBB/catkin_ws/install/**
+

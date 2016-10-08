@@ -1,0 +1,264 @@
+{C:\Program Files\BRLCAD 7.26.0\bin/step-g.exe} -v -o {C:/Users/costis/Desktop/hexapod-robot-1.snapshot.1/Hexapod ASSY.g} {C:/Users/costis/Desktop/hexapod-robot-1.snapshot.1/Hexapod ASSY.STEP}
+Reading Data from C:/Users/costis/Desktop/hexapod-robot-1.snapshot.1/Hexapod ASSY.STEP...
+
+HEADER read:
+
+FIRST PASS complete:  281846 instances created.
+  0  ERRORS	  0  WARNINGS
+
+
+SECOND PASS complete:  281846 instances valid.
+  0  ERRORS	  0  WARNINGS
+
+Finished reading file.
+
+Loaded 281846 instances from STEP file "C:/Users/costis/Desktop/hexapod-robot-1.snapshot.1/Hexapod ASSY.STEP"
+	Advanced_Brep_Shape_Representation...................................42
+	Spherical_Surface....................................................94
+	Manifold_Surface_Shape_Representation................................1
+	B_Spline_Surface.....................................................90
+	Organization.........................................................455
+	Person_And_Organization..............................................830
+	Application_Protocol_Definition......................................94
+	Approval_Date_Time...................................................595
+	Person...............................................................455
+	Oriented_Edge........................................................41504
+	Security_Classification_Level........................................501
+	Product..............................................................47
+	Design_Context.......................................................47
+	Face_Bound...........................................................842
+	Representation_Relationship..........................................454
+	Manifold_Solid_Brep..................................................203
+	Shell_Based_Surface_Model............................................1
+	Approval_Role........................................................595
+	Person_And_Organization_Role.........................................689
+	Cylindrical_Surface..................................................1294
+	Circle...............................................................3143
+	Item_Defined_Transformation..........................................454
+	Application_Context..................................................94
+	Context_Dependent_Shape_Representation...............................454
+	Product_Definition...................................................47
+	Conical_Surface......................................................144
+	Mechanical_Context...................................................47
+	Edge_Loop............................................................9122
+	Security_Classification..............................................501
+	Date_Time_Role.......................................................548
+	B_Spline_Curve_With_Knots............................................346
+	Toroidal_Surface.....................................................68
+	B_Spline_Surface_With_Knots..........................................32
+	Uncertainty_Measure_With_Unit........................................47
+	Calendar_Date........................................................1143
+	Vector...............................................................17418
+	Product_Definition_Formation_With_Specified_Source...................47
+	Plane................................................................6558
+	Approval.............................................................595
+	Approval_Person_Organization.........................................595
+	Axis2_Placement_3d...................................................11762
+	Cc_Design_Date_And_Time_Assignment...................................548
+	Approval_Status......................................................595
+	Conversion_Based_Unit................................................47
+	Date_And_Time........................................................1143
+	Line.................................................................17418
+	Face_Outer_Bound.....................................................8280
+	Vertex_Point.........................................................13396
+	Advanced_Face........................................................8280
+	Local_Time...........................................................1143
+	B_Spline_Curve.......................................................84
+	Open_Shell...........................................................8
+	Cc_Design_Security_Classification....................................501
+	Geometric_Representation_Context.....................................47
+	Cc_Design_Approval...................................................595
+	Shape_Representation_Relationship....................................43
+	Dimensional_Exponents................................................47
+	Coordinated_Universal_Time_Offset....................................1143
+	Direction............................................................40942
+	Product_Definition_Shape.............................................501
+	Shape_Representation.................................................47
+	Closed_Shell.........................................................203
+	Shape_Definition_Representation......................................47
+	Length_Unit..........................................................47
+	Cc_Design_Person_And_Organization_Assignment.........................689
+	Length_Measure_With_Unit.............................................47
+	Cartesian_Point......................................................62421
+	Next_Assembly_Usage_Occurrence.......................................454
+	Named_Unit...........................................................94
+	Product_Related_Product_Category.....................................47
+	Edge_Curve...........................................................20991
+Used 71 entities of the available 254 in schema "Config_Control_Design
+Load time: 00:00:27
+
+Writing output file [C:/Users/costis/Desktop/hexapod-robot-1.snapshot.1/Hexapod ASSY.g] ...Factory Method not mapped: Manifold_Surface_Shape_Representation
+
+     Generating BRL-CAD hierarchy.
+
+     Generating Product - Brep_1
+     Generating Product - Brep_2WARNING: shape_representation_relationship is not valid
+brep.m_L[15] loop is not valid.
+	end of brep.m_T[loop.m_ti[3]=63]=(-9.42478,0.679153) and start 
+	of brep.m_T[loop.m_ti[0]=60]=(-3.14159,0.679153) do not match.
+brep.m_F[13] face is not valid.
+	brep.m_L[face.m_li[0]=15] is not valid.
+ON_Brep.m_F[13] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[15] loop is not valid.
+			end of brep.m_T[loop.m_ti[3]=63]=(-9.42478,0.679153) and start 
+			of brep.m_T[loop.m_ti[0]=60]=(-3.14159,0.679153) do not match.
+		brep.m_F[13] face is not valid.
+			brep.m_L[face.m_li[0]=15] is not valid.
+		ON_Brep.m_F[13] is invalid.
+
+     Generating Product - Brep_3
+     Generating Product - Brep_4WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.571923) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.571923) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.571923) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.571923) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+
+     Generating Product - Brep_5
+     Generating Product - Brep_6
+     Generating Product - Brep_7
+     Generating Product - Brep_8
+     Generating Product - Brep_9
+     Generating Product - Brep_10
+     Generating Product - Brep_11
+     Generating Product - Brep_12
+     Generating Product - Brep_13
+     Generating Product - Brep_14
+     Generating Product - Brep_15
+     Generating Product - Brep_16
+     Generating Product - Brep_17
+     Generating Product - Brep_18
+     Generating Product - Brep_19
+     Generating Product - Brep_20
+     Generating Product - Brep_21Error: Can not resolve seam or singularity issues.
+Error: Can not resolve seam or singularity issues.
+WARNING: shape_representation_relationship is not valid
+brep.m_L[16] loop is not valid.
+	loop.m_ti.Count() is <= 0  (should be > 0)
+brep.m_F[16] face is not valid.
+	brep.m_L[face.m_li[0]=16] is not valid.
+ON_Brep.m_F[16] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[16] loop is not valid.
+			loop.m_ti.Count() is <= 0  (should be > 0)
+		brep.m_F[16] face is not valid.
+			brep.m_L[face.m_li[0]=16] is not valid.
+		ON_Brep.m_F[16] is invalid.
+
+     Generating Product - Brep_22WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.590341) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.590341) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.590341) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.590341) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+
+     Generating Product - Brep_23WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.689241) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.689241) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.689241) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.689241) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+
+     Generating Product - Brep_24
+     Generating Product - Brep_25
+     Generating Product - Brep_26
+     Generating Product - Brep_27WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,1.02653) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,1.02653) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,1.02653) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,1.02653) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+
+     Generating Product - Brep_28
+     Generating Product - Brep_29
+     Generating Product - Brep_30
+     Generating Product - Brep_31
+     Generating Product - Brep_32
+     Generating Product - Brep_33WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.689241) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.689241) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,0.689241) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,0.689241) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+
+     Generating Product - Brep_34
+     Generating Product - Brep_35
+     Generating Product - Brep_36
+     Generating Product - Brep_37
+     Generating Product - Brep_38
+     Generating Product - Brep_39Factory Method not mapped: Manifold_Surface_Shape_Representation
+
+     Generating Product - Brep_40WARNING: shape_representation_relationship is not valid
+brep.m_L[15] loop is not valid.
+	end of brep.m_T[loop.m_ti[3]=63]=(-9.42478,0.679153) and start 
+	of brep.m_T[loop.m_ti[0]=60]=(-3.14159,0.679153) do not match.
+brep.m_F[13] face is not valid.
+	brep.m_L[face.m_li[0]=15] is not valid.
+ON_Brep.m_F[13] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[15] loop is not valid.
+			end of brep.m_T[loop.m_ti[3]=63]=(-9.42478,0.679153) and start 
+			of brep.m_T[loop.m_ti[0]=60]=(-3.14159,0.679153) do not match.
+		brep.m_F[13] face is not valid.
+			brep.m_L[face.m_li[0]=15] is not valid.
+		ON_Brep.m_F[13] is invalid.
+
+     Generating Product - Brep_41
+     Generating Product - Brep_42WARNING: shape_representation_relationship is not valid
+brep.m_L[28] loop is not valid.
+	end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,1.02653) and start 
+	of brep.m_T[loop.m_ti[0]=108]=(-3.14159,1.02653) do not match.
+brep.m_F[26] face is not valid.
+	brep.m_L[face.m_li[0]=28] is not valid.
+ON_Brep.m_F[26] is invalid.
+m_object_table[0].m_object->IsValid() = false.
+		brep.m_L[28] loop is not valid.
+			end of brep.m_T[loop.m_ti[5]=113]=(-9.42478,1.02653) and start 
+			of brep.m_T[loop.m_ti[0]=108]=(-3.14159,1.02653) do not match.
+		brep.m_F[26] face is not valid.
+			brep.m_L[face.m_li[0]=28] is not valid.
+		ON_Brep.m_F[26] is invalid.
+done!
+Convert time: 00:00:44
+
